@@ -34,7 +34,7 @@ public class KoneksiDatabase {
         Connection testKoneksi = KoneksiDatabase.getKoneksi();
 
         if (testKoneksi != null) {
-            System.out.println("Pengujian koneksi berhasil.");
+            System.out.println("Pengujian koneksi berhasil");
             try {
                 testKoneksi.close();
                 System.out.println("Koneksi berhasil ditutup.");
